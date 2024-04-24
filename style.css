@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-wrap: pretty;
+    font-family:"Young Serif";
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+}
+
+.img{
+    max-width: 100%;
+    width: 700px;
+}
+
+.section{
+    padding: 20px 40px;
+}
+
+.main-tittle{
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: var(--Dark-Charcoal);
+    line-height: 1;
+}
+
+.p-description{
+    line-height: 2;
+    font-size: .8rem;
+    margin-bottom: 10px;
+    color: var(--Wenge-Brown);
+    font-family: "Outfit";
+    font-weight: 400;
+}
+
+.card-preparation{
+    padding: 20px 30px;
+    font-family: "Outfit";
+    margin-bottom: 10px;
+    background-color: var(--Rose-White);
+    border-radius: 10px;
+
+}
+
+.preparation{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--Dark-Raspberry);
+}
+
+.div-list{
+    text-wrap: wrap;
+    font-size: 0.8rem;
+    width: 80%;
+}
+
+.div-item{
+    line-height: 1.7;
+    color: var(--Wenge-Brown);
+    letter-spacing: 0.5px;
+    margin-left: 20px;
+}
+
+.div-item strong{
+    color: var(--Dark-Charcoal);
+}
+
+.div-list, .div-item::marker{
+    color: var(--Dark-Raspberry);
+}
+
+.container-subti{
+    margin-bottom: 25px;
+}
+
+.subti{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: var(--Nutmeg);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.subti-li{
+    font-family: "Outfit";
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 0.9rem;
+    line-height: 2;
+    color: var(--Wenge-Brown);
+}
+
+.subti-ul, .subti-li::marker{
+    color: var(--Nutmeg);
+}
+
+ol li{
+    font-family: "Outfit";
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 0.9rem;
+    line-height: 2;
+    color: var(--Wenge-Brown);
+    letter-spacing: 0.5px;
+}
+
+li strong{
+    color: var(--Wenge-Brown);
+}
+
+ol li::marker{
+    font-weight: bold;
+    color: var(--Nutmeg);
+}
+
+.subti{
+    margin-bottom: 20px;
+}
+
+.description-subti-end{
+    font-family: "Outfit";
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: var(--Wenge-Brown);
+}
+
+.table{
+    width: 100%;
+    text-align: center;
+}
+
+
+td{
+    font-family: "Outfit";
+    font-weight: 400;
+    color: var(--Wenge-Brown);
+    padding: 10px;
+}
+
+.strong-end{
+    font-family: "Outfit";
+    font-weight: 700;
+    color: var(--Nutmeg);
+}
+
+table,td{
+    border-bottom: 1px solid var(--Light-Grey);
+    border-collapse: collapse;
+}
+
+@media screen and (min-width: 650px) {
+    
+    .container{
+        background-color: var(--Rose-White);
+        padding: 50px 150px;
+    }
+
+    .card{
+        border-radius: 20px;
+        padding: 30px;
+        background-color: var(--White);
+    }
+    
+    .img{
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .section{
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-tittle{
+        font-size: 1.5rem;
+    }
+
+    .subti{
+        font-size: 1.2rem;
+    }
+
+}
